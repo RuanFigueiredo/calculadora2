@@ -9,10 +9,13 @@ function calcular(){
                 document.getElementById("resultado").innerHTML = valor1 + valor2;
                 break;
             case "-":
+                document.getElementById("resultado").innerHTML = valor1 - valor2;
                 break
             case "*":
+                document.getElementById("resultado").innerHTML = valor1 * valor2;
                 break
             case "/":
+                document.getElementById("resultado").innerHTML = (valor1 / valor2).toFixed(2);
                 break;
         }
     }else {
